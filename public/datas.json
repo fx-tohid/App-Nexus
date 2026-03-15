@@ -1,0 +1,363 @@
+[
+  {
+    "image": "https://picsum.photos/200?1",
+    "title": "Hero IO",
+    "companyName": "NovaSoft",
+    "id": 1,
+    "description": "Fast-paced online arena battle game with multiplayer competition.",
+    "size": 120,
+    "reviews": "4.5k",
+    "ratingAvg": 4.5,
+    "downloads": "500k",
+    "ratings": [
+      { "name": "1 star", "count": "120" },
+      { "name": "2 star", "count": "210" },
+      { "name": "3 star", "count": "480" },
+      { "name": "4 star", "count": "1.7k" },
+      { "name": "5 star", "count": "2k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?2",
+    "title": "TaskFlow",
+    "companyName": "BrightLabs",
+    "id": 2,
+    "description": "Organize daily tasks, reminders, and productivity goals easily.",
+    "size": 65,
+    "reviews": "2.3k",
+    "ratingAvg": 4.3,
+    "downloads": "200k",
+    "ratings": [
+      { "name": "1 star", "count": "90" },
+      { "name": "2 star", "count": "120" },
+      { "name": "3 star", "count": "350" },
+      { "name": "4 star", "count": "980" },
+      { "name": "5 star", "count": "840" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?3",
+    "title": "ChatLoop",
+    "companyName": "LoopTech",
+    "id": 3,
+    "description": "Secure global messaging with fast chat and media sharing.",
+    "size": 85,
+    "reviews": "7.1k",
+    "ratingAvg": 4.6,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": "210" },
+      { "name": "2 star", "count": "310" },
+      { "name": "3 star", "count": "690" },
+      { "name": "4 star", "count": "2.5k" },
+      { "name": "5 star", "count": "3.3k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?4",
+    "title": "FitPulse",
+    "companyName": "HealthSync",
+    "id": 4,
+    "description": "Track workouts, calories, and daily fitness progress.",
+    "size": 98,
+    "reviews": "3.1k",
+    "ratingAvg": 4.4,
+    "downloads": "350k",
+    "ratings": [
+      { "name": "1 star", "count": "110" },
+      { "name": "2 star", "count": "190" },
+      { "name": "3 star", "count": "470" },
+      { "name": "4 star", "count": "1.2k" },
+      { "name": "5 star", "count": "1.1k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?5",
+    "title": "PhotoSpark",
+    "companyName": "PixelForge",
+    "id": 5,
+    "description": "Powerful AI photo editor with filters and adjustments.",
+    "size": 150,
+    "reviews": "8.4k",
+    "ratingAvg": 4.7,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": "200" },
+      { "name": "2 star", "count": "260" },
+      { "name": "3 star", "count": "720" },
+      { "name": "4 star", "count": "3k" },
+      { "name": "5 star", "count": "4.2k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?6",
+    "title": "WeatherCast",
+    "companyName": "SkyWare",
+    "id": 6,
+    "description": "Live weather forecasts with radar and alerts.",
+    "size": 52,
+    "reviews": "1.9k",
+    "ratingAvg": 4.2,
+    "downloads": "150k",
+    "ratings": [
+      { "name": "1 star", "count": "80" },
+      { "name": "2 star", "count": "120" },
+      { "name": "3 star", "count": "300" },
+      { "name": "4 star", "count": "800" },
+      { "name": "5 star", "count": "600" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?7",
+    "title": "NoteHive",
+    "companyName": "HiveSoft",
+    "id": 7,
+    "description": "Minimal note-taking app with cloud sync.",
+    "size": 40,
+    "reviews": "1.4k",
+    "ratingAvg": 4.1,
+    "downloads": "120k",
+    "ratings": [
+      { "name": "1 star", "count": "60" },
+      { "name": "2 star", "count": "110" },
+      { "name": "3 star", "count": "260" },
+      { "name": "4 star", "count": "560" },
+      { "name": "5 star", "count": "410" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?8",
+    "title": "CodeMaster",
+    "companyName": "DevCore",
+    "id": 8,
+    "description": "Learn coding through interactive lessons and projects.",
+    "size": 130,
+    "reviews": "5.2k",
+    "ratingAvg": 4.6,
+    "downloads": "600k",
+    "ratings": [
+      { "name": "1 star", "count": "130" },
+      { "name": "2 star", "count": "200" },
+      { "name": "3 star", "count": "540" },
+      { "name": "4 star", "count": "2k" },
+      { "name": "5 star", "count": "2.3k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?9",
+    "title": "FoodDash",
+    "companyName": "UrbanEats",
+    "id": 9,
+    "description": "Order food from nearby restaurants with live tracking.",
+    "size": 110,
+    "reviews": "6.7k",
+    "ratingAvg": 4.4,
+    "downloads": "900k",
+    "ratings": [
+      { "name": "1 star", "count": "300" },
+      { "name": "2 star", "count": "350" },
+      { "name": "3 star", "count": "850" },
+      { "name": "4 star", "count": "2.5k" },
+      { "name": "5 star", "count": "2.7k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?10",
+    "title": "MusicWave",
+    "companyName": "SoundByte",
+    "id": 10,
+    "description": "Stream songs and create playlists easily.",
+    "size": 95,
+    "reviews": "9.1k",
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": "310" },
+      { "name": "2 star", "count": "400" },
+      { "name": "3 star", "count": "950" },
+      { "name": "4 star", "count": "3.5k" },
+      { "name": "5 star", "count": "3.9k" }
+    ]
+  },
+
+  {
+    "image": "https://picsum.photos/200?11",
+    "title": "TravelMate",
+    "companyName": "GlobeApps",
+    "id": 11,
+    "description": "Trip planner with itinerary and travel guides.",
+    "size": 105,
+    "reviews": "2.2k",
+    "ratingAvg": 4.3,
+    "downloads": "180k",
+    "ratings": [
+      { "name": "1 star", "count": "90" },
+      { "name": "2 star", "count": "150" },
+      { "name": "3 star", "count": "350" },
+      { "name": "4 star", "count": "900" },
+      { "name": "5 star", "count": "710" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?12",
+    "title": "MindFocus",
+    "companyName": "ZenLabs",
+    "id": 12,
+    "description": "Meditation and focus timer for productivity.",
+    "size": 70,
+    "reviews": "1.7k",
+    "ratingAvg": 4.2,
+    "downloads": "130k",
+    "ratings": [
+      { "name": "1 star", "count": "70" },
+      { "name": "2 star", "count": "120" },
+      { "name": "3 star", "count": "290" },
+      { "name": "4 star", "count": "700" },
+      { "name": "5 star", "count": "520" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?13",
+    "title": "SecureVault",
+    "companyName": "ShieldTech",
+    "id": 13,
+    "description": "Password manager with strong encryption.",
+    "size": 55,
+    "reviews": "3k",
+    "ratingAvg": 4.4,
+    "downloads": "400k",
+    "ratings": [
+      { "name": "1 star", "count": "100" },
+      { "name": "2 star", "count": "180" },
+      { "name": "3 star", "count": "420" },
+      { "name": "4 star", "count": "1.2k" },
+      { "name": "5 star", "count": "1.1k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?14",
+    "title": "GameSphere",
+    "companyName": "PlayForge",
+    "id": 14,
+    "description": "Arcade gaming hub with multiple mini games.",
+    "size": 180,
+    "reviews": "6k",
+    "ratingAvg": 4.5,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": "210" },
+      { "name": "2 star", "count": "260" },
+      { "name": "3 star", "count": "720" },
+      { "name": "4 star", "count": "2.4k" },
+      { "name": "5 star", "count": "2.4k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?15",
+    "title": "EduSpark",
+    "companyName": "LearnLabs",
+    "id": 15,
+    "description": "Educational app with quizzes and lessons.",
+    "size": 140,
+    "reviews": "4.8k",
+    "ratingAvg": 4.6,
+    "downloads": "800k",
+    "ratings": [
+      { "name": "1 star", "count": "120" },
+      { "name": "2 star", "count": "210" },
+      { "name": "3 star", "count": "500" },
+      { "name": "4 star", "count": "2k" },
+      { "name": "5 star", "count": "2k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?16",
+    "title": "ClipMaker",
+    "companyName": "VidLabs",
+    "id": 16,
+    "description": "Create and edit short videos easily.",
+    "size": 160,
+    "reviews": "5.5k",
+    "ratingAvg": 4.5,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": "180" },
+      { "name": "2 star", "count": "260" },
+      { "name": "3 star", "count": "640" },
+      { "name": "4 star", "count": "2.1k" },
+      { "name": "5 star", "count": "2.3k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?17",
+    "title": "ShopSmart",
+    "companyName": "MarketFlow",
+    "id": 17,
+    "description": "Compare product prices across online stores.",
+    "size": 90,
+    "reviews": "2.9k",
+    "ratingAvg": 4.3,
+    "downloads": "300k",
+    "ratings": [
+      { "name": "1 star", "count": "95" },
+      { "name": "2 star", "count": "160" },
+      { "name": "3 star", "count": "390" },
+      { "name": "4 star", "count": "1.1k" },
+      { "name": "5 star", "count": "1.1k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?18",
+    "title": "DriveMate",
+    "companyName": "AutoTech",
+    "id": 18,
+    "description": "Smart driving assistant and navigation.",
+    "size": 125,
+    "reviews": "3.6k",
+    "ratingAvg": 4.4,
+    "downloads": "450k",
+    "ratings": [
+      { "name": "1 star", "count": "120" },
+      { "name": "2 star", "count": "200" },
+      { "name": "3 star", "count": "480" },
+      { "name": "4 star", "count": "1.4k" },
+      { "name": "5 star", "count": "1.4k" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?19",
+    "title": "PetCare",
+    "companyName": "AnimalApps",
+    "id": 19,
+    "description": "Track pet health, food schedule, and reminders.",
+    "size": 60,
+    "reviews": "1.2k",
+    "ratingAvg": 4.1,
+    "downloads": "90k",
+    "ratings": [
+      { "name": "1 star", "count": "60" },
+      { "name": "2 star", "count": "90" },
+      { "name": "3 star", "count": "210" },
+      { "name": "4 star", "count": "480" },
+      { "name": "5 star", "count": "360" }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?20",
+    "title": "BudgetPro",
+    "companyName": "FinTrack",
+    "id": 20,
+    "description": "Manage expenses and track personal finances.",
+    "size": 75,
+    "reviews": "3.3k",
+    "ratingAvg": 4.4,
+    "downloads": "400k",
+    "ratings": [
+      { "name": "1 star", "count": "110" },
+      { "name": "2 star", "count": "170" },
+      { "name": "3 star", "count": "420" },
+      { "name": "4 star", "count": "1.3k" },
+      { "name": "5 star", "count": "1.3k" }
+    ]
+  }
+]
