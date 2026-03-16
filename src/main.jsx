@@ -7,19 +7,23 @@ import Root from './layout/Root.jsx'
 import Home from './components/Home/Home.jsx'
 import AppLists from './components/AppLists/AppLists.jsx'
 import AppDetails from './components/AppDetails/AppDetails.jsx'
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/', Component: Root, children: [
+    path: '/',
+    Component: Root,
+    errorElement: <ErrorPage />,
+    children: [
       { index: true, Component: Home },
       { path: '/apps', Component: AppLists, loader: () => fetch('/datas.json') },
-      {path: '/apps/:id', Component: AppDetails, loader: () => fetch('/datas.json')}
-    ]
+      { path: '/apps/:id', Component: AppDetails, loader: () => fetch('/datas.json') }
+    ],
   }
 ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={router} />
   </StrictMode>,
 )
