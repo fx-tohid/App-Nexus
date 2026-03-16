@@ -1,12 +1,17 @@
 import React from 'react';
 import { FiDownload } from 'react-icons/fi';
 import { MdOutlineStarBorder } from 'react-icons/md';
+import { useNavigate } from 'react-router';
 
 const TrendingApp = ({ app }) => {
     const { image, title, id, downloads, reviews } = app;
 
+    const navigate = useNavigate()
+
     const handleAppDetails = () => {
-        console.log('Hello world')
+        console.log('Hello world', `${id}`)
+        navigate(`/apps/${id}`)
+
     }
     return (
         <div onClick={handleAppDetails}
