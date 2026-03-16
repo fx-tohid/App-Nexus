@@ -2,6 +2,7 @@ import React from "react";
 import { FaGooglePlay, FaApple, FaCheck, FaPowerOff } from "react-icons/fa";
 import { FiClock } from "react-icons/fi";
 import { BsShieldCheck } from "react-icons/bs";
+import { useNavigate } from "react-router";
 
 const HeroSection = () => {
     return (
@@ -18,15 +19,16 @@ const HeroSection = () => {
                     into digital experiences that truly make an impact.
                 </p>
                 <div className="flex justify-center gap-4 mt-8 flex-wrap">
-                    <a href="https://play.google.com/" className="flex text-black items-center gap-2 bg-white border px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition">
+                    <a href="https://play.google.com/" className="flex btn  text-black items-center gap-2 bg-white border px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition">
                         <FaGooglePlay className="text-green-600" />
-                            Google Play
+                        Google Play
                     </a>
 
-                    <button className="flex items-center text-black gap-2 bg-white border px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition">
+                    <a href="https://www.apple.com/app-store/" className="btn flex items-center text-black gap-2 bg-white border px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition">
                         <FaApple className="text-black" />
                         App Store
-                    </button>
+
+                    </a>
                 </div>
             </div>
 
@@ -35,7 +37,7 @@ const HeroSection = () => {
                 <img
                     src="/src/assets/hero.png"
                     alt="App Preview"
-                    className="w-auto h-[380px] relative z-10"
+                    className="w-auto h-auto relative z-10"
                 />
             </div>
         </section>

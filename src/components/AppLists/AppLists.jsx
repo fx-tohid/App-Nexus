@@ -26,7 +26,7 @@ const AppLists = () => {
                     <p className="text-gray-500">Explore All Apps on the Market developed by us. We code for Millions</p>
                 </div>
 
-                <div className='flex justify-between my-8'>
+                <div className='flex gap-5 flex-col md:flex-row justify-between my-8'>
                     <h2 className='text-black text-3xl font-medium'>({apps.length}) Apps Found</h2>
 
                     {/* Search input */}

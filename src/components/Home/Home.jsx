@@ -3,6 +3,8 @@ import HeroSection from '../HeroSection/HeroSection';
 import Stats from '../Stats/Stats';
 import TrendingApps from '../TrendingApps/TrendingApps';
 import { Suspense } from 'react';
+import { ToastContainer } from 'react-toastify';
+
 
 const Home = () => {
 
@@ -15,6 +17,7 @@ const Home = () => {
             <Suspense fallback={<h1>Something coming...</h1>}>
                 <TrendingApps fetchDatas={fetchDatas} />
             </Suspense>
+            <ToastContainer />
         </div>
     );
 };

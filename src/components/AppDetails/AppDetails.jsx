@@ -11,6 +11,7 @@ import {
     Tooltip,
     ResponsiveContainer
 } from 'recharts';
+import { toast, ToastContainer } from 'react-toastify'
 
 const AppDetails = () => {
     const appDatas = useLoaderData();
@@ -25,8 +26,16 @@ const AppDetails = () => {
     const [installed, setInstalled] = useState(false);
 
 
+    const handleInstall = () => {
+        if(!installed){
+            toast.success('App Installed');
+            setInstalled(!false)
+        }
+    }
+
     return (
-        <div className='max-w-5xl mx-auto w-full'>
+        <div className='md:max-w-5xl mx-auto w-full'>
+            <ToastContainer />
 
             {/* Main App Info */}
             <div className=" p-6 bg-white border border-gray-100 rounded-lg">
@@ -75,9 +84,9 @@ const AppDetails = () => {
                         </div>
 
                         {/* Action Button */}
-                        <button onClick={() => setInstalled(!!true)} className="bg-[#00D18E] text-white px-6 py-2.5 rounded-md font-bold text-sm transition-colors hover:bg-[#00b97d]">
+                        <button onClick={handleInstall} className={`bg-[#00D18E] ${installed && 'btn-disabled bg-[#02c184c2]' } text-white px-6 py-2.5 rounded-md font-bold text-sm transition-colors hover:bg-[#00b97d]`}>
                             {
-                                !installed ? `Install Now (${size} MB)` : 'App Installed'
+                                !installed ? `Install Now (${size} MB)` : 'Installed'
                             }
                         </button>
                     </div>
@@ -133,7 +142,7 @@ const AppDetails = () => {
 
             {/* Description  */}
 
-            <div className="py-7">
+            <div className="py-7 mx-4">
                 <h2 className="text-2xl font-bold">Description</h2>
                 <p className='text-xl text-gray-800 mt-8'>{description}</p>
             </div>

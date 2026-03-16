@@ -1,12 +1,40 @@
-# React + Vite
+# AppNexus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📱 Overview
+**AppNexus** is a modern Application Store web application that allows users to discover, browse, and explore different apps in one centralized platform. The project focuses on providing a clean and simple interface where users can easily search for applications, view their details, and explore apps by categories.
 
-Currently, two official plugins are available:
+The main goal of AppNexus is to simplify the process of discovering useful applications while maintaining a fast and responsive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- 🔎 **Live App Search** – Instantly search apps by name.
+- 📂 **Category Browsing** – Explore apps grouped by different categories.
+- 📄 **App Details Page** – View detailed information about each application.
+- ⚡ **Fast Navigation** – Smooth page routing using modern frontend tools.
+- 📱 **Responsive Design** – Optimized for desktop and mobile devices.
+- 🧭 **Clean UI** – Simple and modern user interface for easy navigation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **React**
+- **Vite**
+- **React Router**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+### Data Handling
+- **Local JSON Data**
+- **Fetch API**
+
+### Development Tools
+- **Node.js**
+- **NPM**
+
+### Deployment
+- **Netlify**
+
