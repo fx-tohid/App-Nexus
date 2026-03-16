@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import TrendingApp from '../TrendingApp/TrendingApp';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import AppNotFound from '../AppNotFound/AppNotFound';
 
 const AppLists = () => {
 
@@ -10,16 +11,12 @@ const AppLists = () => {
     const [search, setSearch] = useState('');
     const [filteredApps, setFilteredApps] = useState([]);
     const handleSearch = e => {
-        console.log(e.target.value);
         setSearch(e.target.value)
-
     }
     useEffect(() => {
         const results = apps.filter(app => app.title.toLowerCase().includes(search.toLowerCase()));
         setFilteredApps(results)
     }, [search, apps])
-
-    
     return (
         <section className="w-full bg-[#fcfdfe] py-16 px-6">
             <div className="max-w-7xl mx-auto">
@@ -54,7 +51,9 @@ const AppLists = () => {
                     {filteredApps.map((app) => <TrendingApp key={app.id} app={app} />)}
                 </div>
 
-
+                {
+                    filteredApps.length === 0 && <AppNotFound/>
+                }
             </div>
         </section>
     );

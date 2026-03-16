@@ -4,8 +4,12 @@ import { MdOutlineStarBorder } from 'react-icons/md';
 
 const TrendingApp = ({ app }) => {
     const { image, title, id, downloads, reviews } = app;
+
+    const handleAppDetails = () => {
+        console.log('Hello world')
+    }
     return (
-        <div
+        <div onClick={handleAppDetails}
             className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm transition-all duration-200 hover:shadow-xl hover:-translate-y-1 cursor-pointer"
         >
             <img className='w-full aspect-square bg-[#e2e8f0] rounded-lg mb-4 flex items-center justify-center' src={image} alt="" />
