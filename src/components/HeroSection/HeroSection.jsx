@@ -3,6 +3,7 @@ import { FaGooglePlay, FaApple, FaCheck, FaPowerOff } from "react-icons/fa";
 import { FiClock } from "react-icons/fi";
 import { BsShieldCheck } from "react-icons/bs";
 import { useNavigate } from "react-router";
+import hero from '../../assets/hero.png'
 
 const HeroSection = () => {
     return (
@@ -35,7 +36,7 @@ const HeroSection = () => {
             {/* Image Section */}
             <div className="relative flex justify-center mt-16">
                 <img
-                    src="/src/assets/hero.png"
+                    src={hero}
                     alt="App Preview"
                     className="w-auto h-auto relative z-10"
                 />

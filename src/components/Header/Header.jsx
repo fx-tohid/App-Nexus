@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router';
 import './Header.css'
+import logo from '../../assets/logo.png'
+
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +18,7 @@ const Header = () => {
 
                 <a href='/' className="flex items-center gap-2">
                     <div className="w-8 h-8">
-                        <img src="/src/assets/logo.png" alt="" />
+                        <img src={logo} alt="" />
                     </div>
                     <span className="text-[#8B5CF6] font-bold text-xl tracking-tight">
                         AppNexus

@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaTwitter, FaLinkedin, FaFacebook } from 'react-icons/fa';
-import { RiTwitterXFill } from 'react-icons/ri'; // For the "X" logo
+import { RiTwitterXFill } from 'react-icons/ri'; 
+import logo from '../../assets/logo.png'
+
 
 const Footer = () => {
   return (
@@ -13,7 +15,7 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="flex items-center gap-3">
             
-            <img className='w-8 h-8' src="/src/assets/logo.png" alt="" />
+            <img className='w-8 h-8' src={logo} alt="" />
             <span className="text-white font-bold text-xl tracking-tight">
               AppNexus
             </span>
