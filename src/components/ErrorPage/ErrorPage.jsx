@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
+import errorImage from '../../assets/error-404.png'
 
 const ErrorPage = () => {
 
@@ -12,7 +13,7 @@ const ErrorPage = () => {
 
                     <div className="w-full max-w-sm mb-12">
                         <img
-                            src="/src/assets/error-404.png"
+                            src={errorImage}
                             alt="Page Not Found"
                             className="w-full h-full"
                         />

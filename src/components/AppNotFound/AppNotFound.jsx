@@ -1,5 +1,5 @@
 import React from 'react';
-
+import AppNotFoundImg from '../../assets/App-Error.png'
 const AppNotFound = () => {
     return (
         <section className="w-full flex items-center justify-center bg-[#fcfdfe] font-sans px-6  min-h-screen">
@@ -7,7 +7,7 @@ const AppNotFound = () => {
 
                 <div className="w-full max-w-sm mb-12">
                     <img
-                        src="/src/assets/App-Error.png"
+                        src={AppNotFoundImg}
                         alt="App Not Found"
                         className="w-full h-full"
                     />
