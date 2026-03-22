@@ -84,7 +84,7 @@ const AppDetails = () => {
                         </div>
 
                         {/* Action Button */}
-                        <button onClick={handleInstall} className={`bg-[#00D18E] ${installed && 'btn-disabled bg-[#02c184c2]' } text-white px-6 py-2.5 rounded-md font-bold text-sm transition-colors hover:bg-[#00b97d]`}>
+                        <button onClick={handleInstall} className={`bg-[#00D18E] ${installed && 'btn-disabled bg-[#67b29a] text-red-300' } text-white px-6 py-2.5 rounded-md font-bold text-sm transition-colors hover:bg-[#00b97d]`}>
                             {
                                 !installed ? `Install Now (${size} MB)` : 'Installed'
                             }
